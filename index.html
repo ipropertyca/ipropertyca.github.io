@@ -1,18 +1,22 @@
 ---
 layout: default
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<img src="/images/vancouver.jpg">
+<hr class="uk-grid-divider">
+<div class="tm-grid-truncate uk-grid uk-grid-divider uk-text-center uk-height-1-1" data-uk-grid-margin="{row: false}">
+	<div class="uk-width-medium-1-2 uk-vertical-align" style="height:350px">
+		<div class="uk-panel uk-vertical-align-middle">
+			<h1>IProperty Ltd</h1>
+			<p>Property Management Service</p>
+		</div>
+	</div>
+	<div class="uk-width-medium-1-2">
+		<div class="uk-panel">
+			<a href="http://palmerip.com">
+				<img src="/images/palmerip.jpg">
+				<h1>Palmer IP Inc</h1>
+				<p style="color:black;">Barristers & Solicitors <br> Patent & Trade-mark Agents <br> US • CA • INTERNATIONAL IP MGMT </p>
+			</a>
+		</div>
+	</div>
 </div>
